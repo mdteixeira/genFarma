@@ -21,14 +21,17 @@ function App() {
         <ToastContainer />
         <div className="min-h-[80vh]">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/categorias" element={<ListaCategorias />} />
-            <Route path="/cadastroCategoria" element={<FormularioCategoria />} />
-            <Route path="/editarCategoria/:id" element={<FormularioCategoria />} />
-            <Route path="/deletarCategoria/:id" element={<DeletarCategoria />} />
-            <Route path="/produtos" element={<ListaProdutos />} />
-            <Route path="/deletarProduto/:id" element={<DeletarProduto />} />
+            <Route path="/genFarma/" element={<Home />} />
+            <Route path="/genFarma/home" element={<Home />} />
+            <Route path="/genFarma/categorias" element={<ListaCategorias />} />
+            <Route path="/genFarma/cadastroCategoria" element={<FormularioCategoria />} />
+            <Route
+              path="/genFarma/editarCategoria/:id"
+              element={<FormularioCategoria />}
+            />
+            <Route path="/genFarma/deletarCategoria/:id" element={<DeletarCategoria />} />
+            <Route path="/genFarma/produtos" element={<ListaProdutos />} />
+            <Route path="/genFarma/deletarProduto/:id" element={<DeletarProduto />} />
           </Routes>
         </div>
         <Footer />

@@ -13,7 +13,7 @@ const Footer = () => {
     <>
       <section className="flex items-center justify-between bg-primary-500 mt-32">
         <Link
-          to={'/home'}
+          to={'/genFarma/home'}
           className="flex items-center justify-center w-1/5 logo-container gap-2 text-white"
         >
           <CaretDoubleRight size={64} weight="bold" />

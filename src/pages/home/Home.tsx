@@ -13,7 +13,7 @@ function Home() {
       <div className="container mx-auto">
         <div className="flex justify-between mt-5">
           <h2 className="text-2xl font-bold text-primary-400">Produtos</h2>
-          <Link to={'/produtos'}>
+          <Link to={'/genFarma/produtos'}>
             <button className="rounded-3xl py-2 px-4 text-primary-500 hover:underline">
               Ver todos os produtos
             </button>
@@ -23,7 +23,7 @@ function Home() {
         <hr />
         <div className="flex justify-between mt-5">
           <h2 className="text-2xl font-bold text-primary-400">Categorias</h2>
-          <Link to={'/categorias'}>
+          <Link to={'/genFarma/categorias'}>
             <button className="rounded-3xl py-2 px-4 text-primary-500 hover:underline">
               Ver todas as categorias
             </button>

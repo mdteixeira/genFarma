@@ -14,7 +14,7 @@ const Navbar = () => {
     <div>
       <div className="flex w-full justify-between py-4">
         <Link
-          to={'/home'}
+          to={'/genFarma/home'}
           className="flex items-center justify-center w-1/5 logo-container gap-2 text-black"
         >
           <CaretDoubleRight size={64} weight="bold" className="text-primary-500" />
