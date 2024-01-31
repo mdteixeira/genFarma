@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a:hover,
+link:hover,
+button:hover,
+Link:hover {
+  cursor: pointer !important;
+}
+
+p,
+h1:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+  cursor: default;
+}
