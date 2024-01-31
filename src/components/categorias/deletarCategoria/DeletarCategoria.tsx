@@ -29,7 +29,7 @@ function DeletarCategoria() {
   }, [id]);
 
   function retornar() {
-    navigate('/categorias');
+    navigate('/genFarma/categorias');
   }
 
   async function deletarCategoria() {

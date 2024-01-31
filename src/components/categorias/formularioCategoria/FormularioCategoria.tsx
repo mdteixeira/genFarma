@@ -61,7 +61,7 @@ function FormularioCategoria() {
   }
 
   function retornar() {
-    navigate('/categorias');
+    navigate('/genFarma/home');
   }
 
   return (

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
-import ListaCategorias from '../../components/Temas/listaCategorias/ListaCategorias';
 import ListaProdutos from '../../components/postagens/listaProdutos/ListaProdutos';
+import ListaCategorias from '../../components/categorias/listaCategorias/ListaCategorias';
 
 function Home() {
   useEffect(() => {

@@ -7,11 +7,10 @@ import Home from './pages/home/Home';
 
 import { ToastContainer } from 'react-toastify';
 
-import DeletarCategoria from './components/Temas/deletarProduto/DeletarProduto';
-import FormularioCategoria from './components/Temas/formularioCategoria/FormularioCategoria';
-import ListaCategorias from './components/Temas/listaCategorias/ListaCategorias';
-import DeletarProduto from './components/Temas/deletarProduto/DeletarProduto';
 import ListaProdutos from './components/postagens/listaProdutos/ListaProdutos';
+import DeletarCategoria from './components/categorias/deletarCategoria/DeletarCategoria';
+import FormularioCategoria from './components/categorias/formularioCategoria/FormularioCategoria';
+import ListaCategorias from './components/categorias/listaCategorias/ListaCategorias';
 
 function App() {
   return (
@@ -31,7 +30,6 @@ function App() {
             />
             <Route path="/genFarma/deletarCategoria/:id" element={<DeletarCategoria />} />
             <Route path="/genFarma/produtos" element={<ListaProdutos />} />
-            <Route path="/genFarma/deletarProduto/:id" element={<DeletarProduto />} />
           </Routes>
         </div>
         <Footer />
