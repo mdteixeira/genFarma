@@ -19,7 +19,7 @@ function CardCategorias({ categoria }: CardCategoriaProps) {
       <p className="h-full p-4 px-8 text-3xl -bold">{categoria.nome}</p>
       <div className={Show ? 'flex absolute right-0 p-2 pr-12' : 'hidden'}>
         <Link
-          to={`/editarCategoria/${categoria.id}`}
+          to={`/genFarma/editarCategoria/${categoria.id}`}
           className="flex px-2 rounded-s-full items-center justify-center w-full bg-primary-400 text-slate-100 hover:bg-primary-500"
         >
           <button>
@@ -27,7 +27,7 @@ function CardCategorias({ categoria }: CardCategoriaProps) {
           </button>
         </Link>
         <Link
-          to={`/deletarCategoria/${categoria.id}`}
+          to={`/genFarma/deletarCategoria/${categoria.id}`}
           className="flex px-2 rounded-e-full items-center justify-center w-full bg-red-500 text-slate-100 hover:bg-red-600"
         >
           <button>
